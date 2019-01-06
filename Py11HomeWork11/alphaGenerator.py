@@ -14,3 +14,9 @@ def alphaGen(num):
         ret.append(random.choice(alphas))
     return ret
         
+if __name__ == "__main__":
+    result = alphaGen(26)
+    print(len(result))
+    print(result)
+#    for item in result:
+#        print(item)
